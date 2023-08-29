@@ -14,7 +14,19 @@
 	integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
 	crossorigin="anonymous"></script>
 	<style>
-
+		.card{
+			border-radius: 1em;
+			text-align: center;
+			padding: 1em;
+		}
+		.card:hover {
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+		.card img{
+			border-radius: 50%;
+			width: 80%;
+			margin: auto;
+		}
 	</style>
 </head>
 <body>
@@ -43,13 +55,36 @@
 	  </nav>
 
 	  <div class="container my-5">
-		<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+		<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
 			<div class="col">
-				<div class="card" style="width: 18rem;">
+				<div class="card">
 				  <img src="cat_in_box.webp" class="card-img-top" alt="Box">
 				  <div class="card-body">
 					<h5 class="card-title">Box</h5>
 					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col">
+				<div class="card">
+				  <img src="laptop.jpeg" class="card-img-top" alt="Cat on laptop">
+				  <div class="card-body">
+					<h5 class="card-title">Laptop</h5>
+					<p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa veniam eveniet magnam. Nisi, dolor repellat ullam perferendis nihil distinctio dolorem?</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col">
+				<div class="card">
+				  <img src="sink.jpeg" class="card-img-top" alt="Cat in sink">
+				  <div class="card-body">
+					<h5 class="card-title">Sink</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita commodi tenetur architecto, voluptatem consectetur fuga?</p>
 					<a href="#" class="btn btn-primary">Go somewhere</a>
 				  </div>
 				</div>
